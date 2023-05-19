@@ -1,0 +1,25 @@
+ <div class="experience_timeline">
+        <div class="timeline_area">
+          <div class="line_area"></div>
+          <div class="experience_content">
+            <p>Present</p>
+            <p>sushi Seki</p>
+            <p>Content Marketing</p>
+          </div>
+          <div class="experience_content">
+            <p>2565</p>
+            <p>sushi Seki</p>
+            <p>Content Marketing</p>
+          </div>
+          <div class="experience_content">
+            <p>2564</p>
+            <p>Hiro Group</p>
+            <p>Graphic Designer , editor</p>
+          </div>
+          <div class="experience_content">
+            <p>2563</p>
+            <p>2NK Group</p>
+            <p>Graphic Designer , editor</p>
+          </div>
+        </div>
+      </div>

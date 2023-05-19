@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/public/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>PortFolio</title>
+  </head>
+  <body>
+    <div id="navbar" class="navbar">
+      <div class="navbar_image">
+        <img src="/src/Image/mook-logo.png" alt="" />
+      </div>
+      <div class="navbar_selection">
+        <ul>
+          <a href="#"><li>About Me</li></a>
+          <a href="#section2"><li>Portfolio</li></a>
+          <a href="#section3"><li>Blog</li></a>
+          <a href="#section4"><li>Contact Us</li></a>
+          <button class="cv-btn">Download CV</button>
+        </ul>
+      </div>
+    </div>
+
+    <div class="header">
+      <div class="header_description">
+        <h1 class="header_title">Chutipa Jainim</h1>
+        <p class="header_career">Content Marketing</p>
+        <p class="header_info">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
+          omnis, magnam non, molestiae nobis quasi dolor nemo veritatis
+          consequuntur beatae quos exercitationem iste ratione ipsam ex, illum
+          quo odio hic. Nostrum porro quos culpa at impedit cupiditate quod et
+          reiciendis nesciunt iusto consectetur.
+        </p>
+      </div>
+      <div class="header_image">
+        <!-- Image profile -->
+      </div>
+    </div>
+
+    <div id="section2" class="preview"></div>
+
+    <div  class="portfolio">
+      <div class="portfolio_container">
+        <div class="portfolio_title">
+          <h1>Portfolio</h1>
+        </div>
+        <div class="portfolio_menu">
+          <ul id="portfolio_selection">
+            <li value="all">All Work</li>
+            <li value="motion">Motion</li>
+            <li value="photography">Photography</li>
+          </ul>
+        </div>
+      </div>
+      <div id="portfolio_works" class="portfolio_works">
+        <div class="port_work" data-category="motion">
+          <video
+            class="port_video"
+            src="/src/video/C-vitt ads.mp4"
+            autoplay
+            muted
+            loop
+          ></video>
+        </div>
+        <div class="port_work" data-category="motion">
+          <video
+            class="port_video"
+            src="/src/video/Lay ads.mp4"
+            autoplay
+            muted
+            loop
+          ></video>
+        </div>
+
+        <div class="port_work" data-category="photography">
+          <img
+            class="port_image"
+            src="/src/Image/image-port/image1.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="port_work" data-category="photography">
+          <img
+            class="port_image"
+            src="/src/Image/image-port/image2.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="port_work" data-category="photography">
+          <img
+            class="port_image"
+            src="/src/Image/image-port/image3.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="port_work" data-category="motion">
+          <video
+            class="port_video"
+            src="/src/video/Nescafe Triple Espresso.mp4"
+            autoplay
+            muted
+            loop
+          ></video>
+        </div>
+        <div class="port_work" data-category="photography">
+          <img
+            class="port_image"
+            src="/src/Image/image-port/image4.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="port_work" data-category="photography">
+          <img
+            class="port_image"
+            src="/src/Image/image-port/image5.jpeg"
+            alt=""
+          />
+        </div>
+
+        <div class="port_work" data-category="motion">
+          <video
+            class="port_video"
+            src="/src/video/Spotify(fan made).mp4"
+            autoplay
+            muted
+            loop
+          ></video>
+        </div>
+      </div>
+      <button id="load_more" class="load_more">Load More</button>
+    </div>
+
+    <div id="section3" class="experiences">
+      <div class="experience_title">
+        <h1>Experiences</h1>
+      </div>
+      <div class="timeline_container">
+        <div class="timeline_area top">
+          <div class="timeline_content">
+            <p>2563</p>
+            <p>Graphic Designer , Editor</p>
+            <p>2NK Group</p>
+          </div>
+        </div>
+        <div class="timeline_area bottom">
+          <div class="timeline_content">
+            <p>2564</p>
+            <p>Graphic Designer , Editor</p>
+            <p>Sushi Hiro</p>
+          </div>
+        </div>
+        <div class="timeline_area top">
+          <div class="timeline_content">
+            <p>2565</p>
+            <p>Content Marketing</p>
+            <p>Sushi Seki</p>
+          </div>
+        </div>
+        <div class="timeline_last">
+          <p>Present</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="section4" class="contact">
+      <div class="contact_title">
+        <h1>Contact Us</h1>
+      </div>
+      <div class="contact_container">
+        <div class="contact_left">
+          <div class="contact_info">
+            <p>
+              <img
+                src="/src/Image/image-icons/smartphone.png"
+                alt="smaarphone"
+              />
+              123-456-7890
+            </p>
+            <p>
+              <img src="/src/Image/image-icons/gmail.png" alt="gmail" />
+              info@gmail.com
+            </p>
+            <p>
+              <img
+                src="/src/Image/image-icons/location-pin.png"
+                alt="location"
+              />
+              00 info St,Bangkok,10200,Thailand
+            </p>
+          </div>
+        </div>
+        <div class="contact_right">
+          <form>
+            <input type="text" id="name" placeholder="Name" />
+            <input type="email" id="email" placeholder="Email" />
+            <input type="text" id="phone" placeholder="Phone" />
+            <textarea
+              name="comment"
+              id="comment"
+              placeholder="Comment"
+              cols="30"
+              rows="5"
+            ></textarea>
+            <a class="send_btn">Send Me a Message</a>
+          </form>
+        </div>
+      </div>
+      <div class="contact_social">
+        <div class="contact_social_title">
+          <p>Say Hi! To Me</p>
+          <div class="contact_social_icons">
+            <img src="/src/Image/image-icons/facebook.png" alt="" />
+            <img src="/src/Image/image-icons/instagram.png" alt="" />
+            <img src="/src/Image/image-icons/tik-tok.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2023 | All right reserved</p>
+      </div>
+    </div>
+  </body>
+
+  <script src="/javascript/page.js"></script>
+</html>
