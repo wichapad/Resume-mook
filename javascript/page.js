@@ -7,16 +7,28 @@ const itemCategory = document.querySelectorAll("#portfolio_works .port_work");
 let loadMoreBtn = document.querySelector("#load_more");
 let currentItem = 6;
 
+//navigation bar mobile
+const mobileBar = document.getElementById("menu_mobile");
+const selectionMobile = document.querySelector(".menu_selection");
+
 //Change color Scrolling Navbar
-window.addEventListener("scroll", ()=>{
-  const navbar = document.getElementById("navbar")
-  const scrollPosition = window.scrollY
+window.addEventListener("scroll", () => {
+  const navbar = document.getElementById("navbar_selection");
+  const scrollPosition = window.scrollY;
   if (scrollPosition > 0) {
-    navbar.classList.add("navbar_BG")
-  } else{
-    navbar.classList.remove("navbar_BG")
+    navbar.classList.add("navbar_BG");
+  } else {
+    navbar.classList.remove("navbar_BG");
   }
-})
+});
+
+mobileBar.addEventListener("click", () => {
+  if (selectionMobile.style.display === "none") {
+    selectionMobile.style.display = "flex";
+  } else {
+    selectionMobile.style.display = "none";
+  }
+});
 
 // .active navbar
 navMenu.forEach((e) => {
@@ -51,5 +63,20 @@ loadMoreBtn.addEventListener("click", () => {
   currentItem += 3;
   if (currentItem >= itemCategory.length) {
     loadMoreBtn.style.display = "none";
+  }
+});
+
+// reveal
+const reveal = document.querySelectorAll(".reveal");
+window.addEventListener("scroll", () => {
+  for (let i = 0; i < reveal.length; i++) {
+    let windowHeight = window.innerHeight;
+    let elementTop = reveal[i].getBoundingClientRect().top;
+    let elementVisible = 150;
+    if (elementTop < windowHeight - elementVisible) {
+      reveal[i].classList.add("active");
+    } else {
+      reveal[i].classList.remove("active");
+    }
   }
 });
