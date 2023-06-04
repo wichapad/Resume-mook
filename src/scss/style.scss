@@ -85,6 +85,7 @@ ul {
   }
 }
 .navbar_BG {
+  transition: 1s all ease-in;
   & li {
     color: #fff;
   }
@@ -185,12 +186,13 @@ ul {
       height: 300px;
       background-color: #000;
       box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.3);
-      transition: 0.3s all;
+      
       .port_video {
         width: 300px;
         height: 300px;
         object-fit: cover;
         object-position: center center;
+        
       }
       .port_image {
         width: 300px;
@@ -413,7 +415,7 @@ ul {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   .navbar {
     position: static;
     .navbar_selection {
