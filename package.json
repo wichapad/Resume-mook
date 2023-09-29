@@ -2,7 +2,7 @@
   "name": "resume-mook",
   "version": "1.0.0",
   "scripts": {
-    "build":"sass --watch src/scss/style.scss src/css/style.css"
+    "start":"sass --watch ./src/scss/style.scss ./src/css/style.css"
   },
   "keywords": [],
   "author": "",
