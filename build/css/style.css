@@ -4,13 +4,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
-  color: #675d50;
+  color: #000;
   scroll-behavior: smooth;
 }
 
 body {
   margin: 0 auto;
-  background-color: #f8ede3;
+  background-color: #d0bfff;
   max-width: 960px;
 }
 
@@ -53,13 +53,12 @@ li {
 .navbar .menu-resume .menu-container {
   display: flex;
   flex-direction: column;
-  background-color: #675d50;
+  background-color: #beadfa;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   padding: 0.8rem;
 }
 .navbar .menu-resume .menu-container .close-bars {
-  color: #f8ede3;
   font-size: 1.3rem;
   cursor: pointer;
 }
@@ -70,20 +69,19 @@ li {
   margin: 10px;
 }
 .navbar .menu-resume .menu-container .link-menu .menu-navbar {
-  color: #f8ede3;
   padding: 0.8rem 0;
   font-size: 1.1rem;
 }
 .navbar .menu-resume .menu-container .link-menu .menu-navbar:hover {
-  border: 1px solid #f8ede3;
+  border: 1px solid #000;
   border-radius: 10px;
 }
 .navbar .menu-resume .cv-btn {
-  background-color: #f8ede3;
+  background-color: #d0bfff;
   border: none;
   outline: none;
   border-radius: 10px;
-  padding: 0.5rem 0;
+  padding: 0.8rem;
   text-transform: uppercase;
   transition: 150ms ease-in;
 }
@@ -128,7 +126,7 @@ li {
   left: 15%;
   width: 320px;
   height: 320px;
-  background-color: #675d50;
+  background-color: #beadfa;
   border-radius: 50%;
   z-index: -1;
 }
@@ -140,7 +138,7 @@ li {
   width: 320px;
   height: 320px;
   background-color: rgba(255, 255, 255, 0.3);
-  border: 2px dashed #675d50;
+  border: 2px dashed #beadfa;
   border-radius: 50%;
   z-index: -2;
 }
@@ -162,7 +160,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #675d50;
+  color: #000;
 }
 .portfolio .portfolio_works {
   display: grid;
@@ -203,7 +201,7 @@ li {
   outline: none;
   border-radius: 5px;
   padding: 0.5rem 0.8rem;
-  background-color: #675d50;
+  background-color: #beadfa;
   color: #fff;
   font-weight: 700;
   cursor: pointer;
@@ -229,7 +227,7 @@ li {
 .experiences .timeline .timeline_line {
   position: absolute;
   left: 50%;
-  border-left: 2px solid #675d50;
+  border-left: 2px solid #beadfa;
   height: 100%;
 }
 .experiences .timeline .timeline_area {
@@ -240,13 +238,13 @@ li {
   position: absolute;
   width: 0.75rem;
   height: 0.75rem;
-  background-color: #675d50;
+  background-color: #beadfa;
   border-radius: 50px;
   left: 48%;
 }
 .experiences .timeline .timeline_area .timeline_content {
   position: relative;
-  border: 2px solid #675d50;
+  border: 2px solid #beadfa;
   border-radius: 5px;
   font-size: 18px;
   padding: 1rem;
@@ -314,7 +312,7 @@ li {
   outline: none;
   border-radius: 5px;
   padding: 0.5rem 0.8rem;
-  background-color: #675d50;
+  background-color: #beadfa;
   color: #fff;
   font-weight: 700;
   cursor: pointer;
@@ -326,7 +324,7 @@ li {
   margin-top: 2.5rem;
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
   border-radius: 100%;
-  border: 2px solid #675d50;
+  border: 2px solid #beadfa;
   padding: 4rem 2rem;
 }
 .contact .contact_social .contact_social_title {
@@ -351,8 +349,8 @@ li {
   align-items: center;
   width: 100%;
   padding: 1.5rem;
-  border-top: 2px solid #675d50;
+  border-top: 2px solid #beadfa;
 }
 .contact .copyright p {
-  color: rgba(103, 93, 80, 0.7);
+  color: rgba(0, 0, 0, 0.7);
 }

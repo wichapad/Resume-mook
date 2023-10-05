@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;700;900&display=swap");
 
 // color-page
-$background-main: #f8ede3;
-$background-second: #675d50;
-$text-color: #675d50;
+$background-main: #d0bfff;
+$background-second: #beadfa;
+$text-color: #000;
 
 * {
   margin: 0;
@@ -64,7 +64,6 @@ li {
       border-bottom-right-radius: 10px;
       padding: 0.8rem;
       .close-bars {
-        color: $background-main;
         font-size: 1.3rem;
         cursor: pointer;
         &:active {
@@ -74,11 +73,10 @@ li {
       .link-menu {
         margin: 10px;
         .menu-navbar {
-          color: $background-main;
           padding: 0.8rem 0;
           font-size: 1.1rem;
           &:hover {
-            border: 1px solid $background-main;
+            border: 1px solid #000;
             border-radius: 10px;
           }
         }
@@ -89,7 +87,7 @@ li {
       border: none;
       outline: none;
       border-radius: 10px;
-      padding: 0.5rem 0;
+      padding: 0.8rem;
       text-transform: uppercase;
       transition: 150ms ease-in;
       &:active {
