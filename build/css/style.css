@@ -242,6 +242,14 @@ li {
   top: 1.5rem;
   text-align: center;
 }
+.experiences .timeline .timeline_area .timeline_content.left {
+  top: 1.5rem;
+  right: 0.4rem;
+}
+.experiences .timeline .timeline_area .timeline_content.right {
+  top: 1.5rem;
+  right: 0.4rem;
+}
 .experiences .timeline .timeline_area .timeline_content p:nth-child(2) {
   font-weight: 700;
   margin: 0.3rem 0;
