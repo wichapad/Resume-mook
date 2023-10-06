@@ -19,23 +19,22 @@
       </div>
       <div class="menu-bars"><i id="open-bars" class=" fa-solid fa-bars"></i></div>
       <div class="menu-selection">
+        <div><i id="close-bars" class="close-bars fa-solid fa-x"></i></div>
         <ul class="menu-resume">
 
-          <div style="text-align: right; padding:0.5rem;"><i id="close-bars" class="close-bars fa-solid fa-x"></i></div>
-          <div>
-            <a class="link-menu" href="#">
-              <li class="menu-navbar">About</li>
-            </a>
-            <a class="link-menu" href="#section2">
-              <li class="menu-navbar">Portfolio</li>
-            </a>
-            <a class="link-menu" href="#section3">
-              <li class="menu-navbar">Blog</li>
-            </a>
-            <a class="link-menu" href="#section4">
-              <li class="menu-navbar">Contact</li>
-            </a>
-          </div>
+          <a class="link-menu" href="#">
+            <li class="menu-navbar">About</li>
+          </a>
+          <a class="link-menu" href="#section2">
+            <li class="menu-navbar">Portfolio</li>
+          </a>
+          <a class="link-menu" href="#section3">
+            <li class="menu-navbar">Blog</li>
+          </a>
+          <a class="link-menu" href="#section4">
+            <li class="menu-navbar">Contact</li>
+          </a>
+
         </ul>
       </div>
     </div>
@@ -155,36 +154,35 @@
       <h1>Contact Me</h1>
     </div>
     <div class="contact_container">
-      <div class="contact_left">
+      <div class="contact_info_container">
         <div class="contact_info">
-          <div>
-            <img class="icons-contact" src="asset/image/image-icons/smartphone.png" alt="smaarphone" />
-            <p>
-              123-456-7890
-            </p>
-          </div>
-          <div>
-            <img class="icons-contact" src="asset/image/image-icons/gmail.png" alt="gmail" />
-            <p>
-              info@gmail.com
-            </p>
-          </div>
-          <div>
-            <img class="icons-contact" src="asset/image/image-icons/location-pin.png" alt="location" />
-            <p>
-              00 info St,Bangkok,10200,Thailand
-            </p>
-          </div>
+          <img class="icons-contact" src="asset/image/image-icons/smartphone.png" alt="smaarphone" />
+          <p>
+            123-456-7890
+          </p>
+        </div>
+        <div class="contact_info">
+          <img class="icons-contact" src="asset/image/image-icons/gmail.png" alt="gmail" />
+          <p>
+            info@gmail.com
+          </p>
+        </div>
+        <div class="contact_info">
+          <img class="icons-contact" src="asset/image/image-icons/location-pin.png" alt="location" />
+          <p>
+            00 info St,Bangkok,10200,Thailand
+          </p>
         </div>
       </div>
+
       <div class="form_contact">
-        <form method="post">
-          <input type="text" id="name" name="name" placeholder="Name" />
-          <input type="email" id="email" name="email" placeholder="Email" />
-          <input type="number" id="phone" name="phone" placeholder="Phone" />
-          <textarea name="comment" id="comment" placeholder="Comment" cols="30" rows="5"></textarea>
-          <a class="send_btn">Send Me a Message</a>
+        <form>
+          <div><input type="text" id="name" name="name" placeholder="Name" /></div>
+          <div> <input type="email" id="email" name="email" placeholder="Email" /></div>
+          <div><input type="number" id="phone" name="phone" placeholder="Phone" /></div>
+          <div><textarea name="comment" id="comment" placeholder="Comment" cols="30" rows="5"></textarea></div>
         </form>
+        <button class="send_btn">Send Message</button>
       </div>
     </div>
 

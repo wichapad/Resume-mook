@@ -20,7 +20,7 @@ window.addEventListener("resize", () => {
 });
 
 window.addEventListener("resize", () => {
-  if (window.innerWidth > 768) {
+  if (window.innerWidth >= 768) {
     menuResume.style.transform = "translateY(0)";
   }
 });
