@@ -1,5 +1,5 @@
 [[redirects]]
 
 from = "/*"
-to = "build/page.html"
+to = "/page.html"
 status = 200
